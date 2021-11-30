@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Juan Tuandali">
+    <title>Soal 2</title>
+</head>
+
+<body>
+
+    <script>
+        let cekPrima = prompt('Bilangan yang ingin dicek');
+        pembagi = 0;
+        for (i = 2; i < cekPrima; i++) {
+            if (cekPrima % 2 == 0) {
+                pembagi = 1;
+               
+            }
+        } if (pembagi == 0) {
+            document.write('Bilangan ' + cekPrima + ' adalah bilangan prima');
+        } else {
+            document.write('Bilangan ' + cekPrima + ' bukan bilangan prima');
+
+        }
+    </script>
+</body>
+
+</html>
